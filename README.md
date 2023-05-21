@@ -37,6 +37,9 @@ You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2), [Sequel
 
 Use the `schema.sql` file in the `db` folder to create your database with MySQL shell commands
 
+Run `npm run seed` to seed data to your database so that you can test your routes on Insomnia
+
+
 ## Review
 
 You are required to submit BOTH of the following for review:
