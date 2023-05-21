@@ -31,3 +31,20 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
+
+# Installation
+You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2), [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
+
+Use the `schema.sql` file in the `db` folder to create your database with MySQL shell commands
+
+## Review
+
+You are required to submit BOTH of the following for review:
+
+* A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met. (https://drive.google.com/file/d/1G7AU8kWXARXO23fx7Le6lrmrt61p0GZX/view)
+
+* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.  https://github.com/floretdemola/orm-more-like-ormg
+
+---
+© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
